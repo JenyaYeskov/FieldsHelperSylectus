@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+  "name": "Fields Helper",
+  "version": "1.2",  
+  "content_scripts": [
+  {
+    "matches": [
+      "https://www8.sylectus.com/VI02_proratedetails*",
+      "https://www8.sylectus.com/VIII05_travelorder.asp*",     
+      "https://www8.sylectus.com/VII05_uploadanimage.aspx*",
+      "https://www8.sylectus.com/LoadPlanning.aspx*",
+      "https://www8.sylectus.com/III39_carrierform.asp*",
+      "https://www8.sylectus.com/newload.asp*",
+      "https://www8.sylectus.com/III25_travelorder.asp*"
+    ],
+    "js": ["content.js"]
+  }
+],
+"browser_action": {
+    
+  }
+}
